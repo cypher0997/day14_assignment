@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.stream.*;
 
+//following contains the essential methods to create an addressBook
+//and then that addressbook will be passed to Main class for further operations
 public class performSorting {
     
     Map<Integer,List<String>> MAB = new HashMap<Integer,List<String>>();
@@ -62,7 +64,7 @@ public class performSorting {
    public void addressBook() {
         int count = 0;
         int numberOfUser = numberOfUser();
-        for(int i = 0;i<numberOfUser;i++) {
+        for(int i = 0 ; i < numberOfUser ; i++) {
             System.out.println();
             System.out.println("enter th detail of user:"+i);
             setName();
